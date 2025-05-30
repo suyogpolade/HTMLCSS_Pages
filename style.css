@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: #151d20;
+}
+
+.page-wrapper {
+  height: 50%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('img/pears.jpg') no-repeat;
+  background-size: contain;
+}
+
+header {
+  padding: 0;
+}
+
+.container {
+  width: auto;
+  margin: 0 300px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Pacifico',cursive;
+  color: white;
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0 2rem;
+}
+
+a {
+  font-weight: 500;
+  color: grey;
+  text-decoration: none;
+}
+
+.hero {
+  padding-top: 6rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.hero h2 span {
+  font-size: 6rem;
+  color: yellow;
+  font-weight: 800;
+}
+
+.hero p {
+  width: 400px;
+  color: grey;
+}
+
+.hero button {
+  background-color: yellow;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  border: none;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
